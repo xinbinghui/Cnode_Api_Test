@@ -1,0 +1,236 @@
+{
+  "uid" : "bf1abce8c370f584",
+  "name" : "test_create_topic[caseinfo2]",
+  "fullName" : "test_case.test_topic#test_create_topic",
+  "historyId" : "38218099aa7a3f8bc410230c9121d5ab",
+  "time" : {
+    "start" : 1652963043884,
+    "stop" : 1652963043902,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1652963040142,
+      "stop" : 1652963040142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1652963040143,
+      "stop" : 1652963040143,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1652963040143,
+      "stop" : 1652963040541,
+      "duration" : 398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1652963040143,
+      "stop" : 1652963040143,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1652963040541,
+      "stop" : 1652963040561,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1652963040562,
+      "stop" : 1652963040579,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1652963040580,
+      "stop" : 1652963040602,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3797504a058591a9",
+      "name" : "log",
+      "source" : "3797504a058591a9.txt",
+      "type" : "text/plain",
+      "size" : 208
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1652963044286,
+      "stop" : 1652963044286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_topic"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "19604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_topic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '新建主题', 'request': {'method': 'post', 'url': '/topics', 'data': {'title': '今天是2022年4月25日', 'tab': 'ask', 'content': None}}, 'validate': False}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "46479296bf08c506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962835483,
+        "stop" : 1652962835501,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "2d93444f8bcf34e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962758424,
+        "stop" : 1652962758443,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "d54a51988837acb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845449177,
+        "stop" : 1652845449196,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "59bae9f0b8786fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913585823,
+        "stop" : 1651913585874,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "5d3bb31a89a8ff99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910133262,
+        "stop" : 1651910133826,
+        "duration" : 564
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf1abce8c370f584.json",
+  "parameterValues" : [ "{'name': '新建主题', 'request': {'method': 'post', 'url': '/topics', 'data': {'title': '今天是2022年4月25日', 'tab': 'ask', 'content': None}}, 'validate': False}" ]
+}

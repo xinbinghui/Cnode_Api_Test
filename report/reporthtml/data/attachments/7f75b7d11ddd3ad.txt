@@ -1,0 +1,2 @@
+[32mINFO    [0m main.py:test_reply_topic.py:69 开始执行脚本test_reply_ups
+[32mINFO    [0m test_reply_ups:Assert.py:33 Response body msg == expected_msg, expected_msg is True, body_message is True

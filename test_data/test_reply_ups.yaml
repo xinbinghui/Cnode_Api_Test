@@ -1,0 +1,6 @@
+-
+  name: 为评论点赞
+  request: 
+    method: post
+    url: /reply/
+  validate: True

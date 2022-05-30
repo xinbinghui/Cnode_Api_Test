@@ -1,0 +1,236 @@
+{
+  "uid" : "eda966089f168b2f",
+  "name" : "test_decollect_topic[caseinfo0]",
+  "fullName" : "test_case.test_collect_topic#test_decollect_topic",
+  "historyId" : "4b21f681555611a8d56ca893391d94a0",
+  "time" : {
+    "start" : 1652963042738,
+    "stop" : 1652963042759,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1652963040142,
+      "stop" : 1652963040142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1652963040143,
+      "stop" : 1652963040143,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1652963040143,
+      "stop" : 1652963040541,
+      "duration" : 398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1652963040143,
+      "stop" : 1652963040143,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1652963040541,
+      "stop" : 1652963040561,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1652963040562,
+      "stop" : 1652963040579,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1652963040580,
+      "stop" : 1652963040602,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ec8ff1918c529ad",
+      "name" : "log",
+      "source" : "5ec8ff1918c529ad.txt",
+      "type" : "text/plain",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1652963044286,
+      "stop" : 1652963044286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_collect_topic"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "19604-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_collect_topic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '取消收藏主题', 'request': {'method': 'post', 'url': '/topic_collect/de_collect'}, 'validate': True}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e1637cef7fba2bdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962834140,
+        "stop" : 1652962834166,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "6dd90e569588679a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962757335,
+        "stop" : 1652962757355,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "66a569eb5632cc3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845447736,
+        "stop" : 1652845447757,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "646e927299bd0537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913580528,
+        "stop" : 1651913580674,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "7153307b15f93b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910120685,
+        "stop" : 1651910120966,
+        "duration" : 281
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eda966089f168b2f.json",
+  "parameterValues" : [ "{'name': '取消收藏主题', 'request': {'method': 'post', 'url': '/topic_collect/de_collect'}, 'validate': True}" ]
+}

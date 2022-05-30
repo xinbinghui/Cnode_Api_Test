@@ -1,0 +1,573 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_collect_topic",
+      "children" : [ {
+        "name" : "test_collect_topic[caseinfo0]",
+        "uid" : "b1fb73a03f8a91d0",
+        "parentUid" : "2f3ea7f3548e3df331114866020e6f34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963040603,
+          "stop" : 1652963040626,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '收藏主题', 'request': {'method': 'post', 'url': '/topic_collect/collect'}, 'validate': True}" ]
+      }, {
+        "name" : "test_decollect_topic[caseinfo0]",
+        "uid" : "eda966089f168b2f",
+        "parentUid" : "2f3ea7f3548e3df331114866020e6f34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963042738,
+          "stop" : 1652963042759,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '取消收藏主题', 'request': {'method': 'post', 'url': '/topic_collect/de_collect'}, 'validate': True}" ]
+      }, {
+        "name" : "test_all_collect[caseinfo0]",
+        "uid" : "55df61dd94239238",
+        "parentUid" : "2f3ea7f3548e3df331114866020e6f34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963042762,
+          "stop" : 1652963042849,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户收藏的所有话题', 'request': {'method': 'get', 'url': '/topic_collect/'}, 'loginname': 'haha123', 'validate': True}" ]
+      }, {
+        "name" : "test_all_collect[caseinfo1]",
+        "uid" : "587aa9283c0152a2",
+        "parentUid" : "2f3ea7f3548e3df331114866020e6f34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963042852,
+          "stop" : 1652963042898,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户收藏的所有话题', 'request': {'method': 'get', 'url': '/topic_collect/'}, 'loginname': 'haha', 'validate': False}" ]
+      }, {
+        "name" : "test_all_collect[caseinfo2]",
+        "uid" : "6420cbc317c821c",
+        "parentUid" : "2f3ea7f3548e3df331114866020e6f34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963042901,
+          "stop" : 1652963042941,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户收藏的所有话题', 'request': {'method': 'get', 'url': '/topic_collect/'}, 'loginname': 'fl1441768608', 'validate': True}" ]
+      } ],
+      "uid" : "2f3ea7f3548e3df331114866020e6f34"
+    }, {
+      "name" : "test_message",
+      "children" : [ {
+        "name" : "test_hasnot_read_message[caseinfo0]",
+        "uid" : "8c219267d29da70c",
+        "parentUid" : "6022cee240a945dc56e7affee9f67af3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963042945,
+          "stop" : 1652963042963,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取未读消息数', 'request': {'method': 'get', 'url': '/message/count'}, 'vaildate': True}" ]
+      }, {
+        "name" : "test_messages[caseinfo0]",
+        "uid" : "6710076935e6d12a",
+        "parentUid" : "6022cee240a945dc56e7affee9f67af3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963042966,
+          "stop" : 1652963043099,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': False}}, 'vaildate': True}" ]
+      }, {
+        "name" : "test_messages[caseinfo1]",
+        "uid" : "c185491cad3964c1",
+        "parentUid" : "6022cee240a945dc56e7affee9f67af3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043102,
+          "stop" : 1652963043239,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': True}}, 'vaildate': True}" ]
+      }, {
+        "name" : "test_messages[caseinfo2]",
+        "uid" : "5347d929c9dc1940",
+        "parentUid" : "6022cee240a945dc56e7affee9f67af3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043243,
+          "stop" : 1652963043390,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': None}}, 'vaildate': True}" ]
+      } ],
+      "uid" : "6022cee240a945dc56e7affee9f67af3"
+    }, {
+      "name" : "test_reply_topic",
+      "children" : [ {
+        "name" : "test_reply_topic[caseinfo0]",
+        "uid" : "1f9725a0bcadd85a",
+        "parentUid" : "f54d428f902ae104347c879870ef1466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043396,
+          "stop" : 1652963043420,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '新建评论', 'reply': 0, 'request': {'method': 'post', 'url': '$url', 'data': {'content': '今天是2022年4月24日'}}, 'validate': True}" ]
+      }, {
+        "name" : "test_reply_topic[caseinfo1]",
+        "uid" : "536f45460b28f784",
+        "parentUid" : "f54d428f902ae104347c879870ef1466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043423,
+          "stop" : 1652963043442,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '新建评论', 'reply': 0, 'request': {'method': 'post', 'url': '$url', 'data': {'content': None}}, 'validate': False}" ]
+      }, {
+        "name" : "test_reply_topic[caseinfo2]",
+        "uid" : "ead6071b5495b6de",
+        "parentUid" : "f54d428f902ae104347c879870ef1466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043446,
+          "stop" : 1652963043470,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '回复新建评论', 'reply': 1, 'request': {'method': 'post', 'url': '$url', 'data': {'content': '回复\"创建reply_id\"'}}, 'validate': True}" ]
+      }, {
+        "name" : "test_reply_topic[caseinfo3]",
+        "uid" : "c8f6d26e8e3dd5d3",
+        "parentUid" : "f54d428f902ae104347c879870ef1466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043473,
+          "stop" : 1652963043495,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '回复新建评论', 'reply': 1, 'request': {'method': 'post', 'url': '$url', 'data': {'content': None}}, 'validate': False}" ]
+      }, {
+        "name" : "test_reply_ups[caseinfo0]",
+        "uid" : "af35d1b5ce259355",
+        "parentUid" : "f54d428f902ae104347c879870ef1466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043498,
+          "stop" : 1652963043517,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '为评论点赞', 'request': {'method': 'post', 'url': '/reply/'}, 'validate': True}" ]
+      } ],
+      "uid" : "f54d428f902ae104347c879870ef1466"
+    }, {
+      "name" : "test_topic",
+      "children" : [ {
+        "name" : "test_get_topic[caseinfo0]",
+        "uid" : "14aca1767b0dee76",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043520,
+          "stop" : 1652963043575,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '主题首页', 'request': {'method': 'get', 'url': '/topics'}, 'params': {'page': 1, 'tab': 'ask', 'limit': 50, 'mdernder': False}, 'validate': True}" ]
+      }, {
+        "name" : "test_get_topic[caseinfo1]",
+        "uid" : "486fbf1c5bc2a14a",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043578,
+          "stop" : 1652963043625,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '主题首页', 'request': {'method': 'get', 'url': '/topics'}, 'params': {'page': 1, 'tab': 'ask', 'limit': 50, 'mdernder': True}, 'validate': True}" ]
+      }, {
+        "name" : "test_get_topic[caseinfo2]",
+        "uid" : "1c5599f9d728c764",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043628,
+          "stop" : 1652963043681,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '主题首页', 'request': {'method': 'get', 'url': '/topics'}, 'params': {'page': 10, 'tab': 'ask', 'limit': 50, 'mdernder': False}, 'validate': True}" ]
+      }, {
+        "name" : "test_topic_detail[caseinfo0]",
+        "uid" : "a354cfb9196ff974",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043684,
+          "stop" : 1652963043760,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '主题详情', 'request': {'method': 'get', 'url': '/topic/'}, 'params': {'mdernder': False}, 'validate': True}" ]
+      }, {
+        "name" : "test_topic_detail[caseinfo1]",
+        "uid" : "c7a432355b591ca5",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043763,
+          "stop" : 1652963043835,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '主题详情', 'request': {'method': 'get', 'url': '/topic/'}, 'params': {'mdernder': True}, 'validate': True}" ]
+      }, {
+        "name" : "test_create_topic[caseinfo0]",
+        "uid" : "555f1ba4408fa675",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043839,
+          "stop" : 1652963043860,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '新建主题', 'request': {'method': 'post', 'url': '/topics', 'data': {'title': '今天天气不错', 'tab': 'ask', 'content': '今天是2022年4月24日'}}, 'validate': True}" ]
+      }, {
+        "name" : "test_create_topic[caseinfo1]",
+        "uid" : "2839b385c22961ac",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043864,
+          "stop" : 1652963043881,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '新建主题', 'request': {'method': 'post', 'url': '/topics', 'data': {'title': None, 'tab': 'ask', 'content': '今天是2022年4月25日'}}, 'validate': False}" ]
+      }, {
+        "name" : "test_create_topic[caseinfo2]",
+        "uid" : "bf1abce8c370f584",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043884,
+          "stop" : 1652963043902,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '新建主题', 'request': {'method': 'post', 'url': '/topics', 'data': {'title': '今天是2022年4月25日', 'tab': 'ask', 'content': None}}, 'validate': False}" ]
+      }, {
+        "name" : "test_create_topic[caseinfo3]",
+        "uid" : "70ea3ff8322106ea",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043905,
+          "stop" : 1652963043926,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '新建主题', 'request': {'method': 'post', 'url': '/topics', 'data': {'title': '今天是2022年4月25日', 'tab': None, 'content': '今天是2022年4月25日'}}, 'validate': False}" ]
+      }, {
+        "name" : "test_eidt_topic[caseinfo0]",
+        "uid" : "4f29cfc59d802da1",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043929,
+          "stop" : 1652963043952,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '编辑主题', 'request': {'method': 'post', 'url': '/topics/update', 'data': {'title': '今天天气不错哈哈哈', 'tab': 'share', 'content': '今天是2022年4月25日，麻麻咧咧'}}, 'validate': True}" ]
+      }, {
+        "name" : "test_eidt_topic[caseinfo1]",
+        "uid" : "1c412101946686c",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043956,
+          "stop" : 1652963043979,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '编辑主题', 'request': {'method': 'post', 'url': '/topics/update', 'data': {'title': None, 'tab': 'share', 'content': '今天是2022年4月25日，麻麻咧咧'}}, 'validate': False}" ]
+      }, {
+        "name" : "test_eidt_topic[caseinfo2]",
+        "uid" : "fb1b08f1bd5c839f",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963043982,
+          "stop" : 1652963044006,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '编辑主题', 'request': {'method': 'post', 'url': '/topics/update', 'data': {'title': '今天天气不错哈哈哈', 'tab': None, 'content': '今天是2022年4月25日，麻麻咧咧'}}, 'validate': False}" ]
+      }, {
+        "name" : "test_eidt_topic[caseinfo3]",
+        "uid" : "e962b3f1fc914938",
+        "parentUid" : "9f6adbafdc268cfeb53cb64fc22caf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963044009,
+          "stop" : 1652963044032,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '编辑主题', 'request': {'method': 'post', 'url': '/topics/update', 'data': {'title': '今天天气不错哈哈哈', 'tab': 'share', 'content': None}}, 'validate': True}" ]
+      } ],
+      "uid" : "9f6adbafdc268cfeb53cb64fc22caf98"
+    }, {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "test_user_detail[caseinfo0]",
+        "uid" : "7c1a25245cec9136",
+        "parentUid" : "8db44a9c9c0a80f92c27bec0dbd89fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963044035,
+          "stop" : 1652963044145,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户详情', 'request': {'method': 'get', 'url': '/user/'}, 'loginname': 'haha123', 'validate': True}" ]
+      }, {
+        "name" : "test_user_detail[caseinfo1]",
+        "uid" : "bb6b2c06752cd489",
+        "parentUid" : "8db44a9c9c0a80f92c27bec0dbd89fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963044148,
+          "stop" : 1652963044193,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户详情', 'request': {'method': 'get', 'url': '/user/'}, 'loginname': 'haha', 'validate': False}" ]
+      }, {
+        "name" : "test_user_detail[caseinfo2]",
+        "uid" : "318db601800246b3",
+        "parentUid" : "8db44a9c9c0a80f92c27bec0dbd89fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963044196,
+          "stop" : 1652963044238,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户详情', 'request': {'method': 'get', 'url': '/user/'}, 'loginname': 'fl1441768608', 'validate': True}" ]
+      }, {
+        "name" : "test_user_accesstoken[caseinfo0]",
+        "uid" : "24f6888a1d6aced3",
+        "parentUid" : "8db44a9c9c0a80f92c27bec0dbd89fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963044241,
+          "stop" : 1652963044260,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '验证accesstoken的正确性', 'request': {'method': 'POST', 'url': '/accesstoken', 'data': {'accesstoken': '80b90794-ca9a-4177-8335-48d9e6999605'}}, 'validate': True}" ]
+      }, {
+        "name" : "test_user_accesstoken[caseinfo1]",
+        "uid" : "847c8fd8d34e3132",
+        "parentUid" : "8db44a9c9c0a80f92c27bec0dbd89fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652963044264,
+          "stop" : 1652963044281,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '验证accesstoken的正确性', 'request': {'method': 'POST', 'url': '/accesstoken', 'data': {'accesstoken': '80b90794'}}, 'validate': False}" ]
+      } ],
+      "uid" : "8db44a9c9c0a80f92c27bec0dbd89fc7"
+    } ],
+    "uid" : "3b2e467b921b0ea8d4803b9c79d92d0c"
+  } ],
+  "name" : "packages"
+}

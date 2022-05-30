@@ -1,0 +1,6 @@
+-
+  name: 获取未读消息数
+  request: 
+    method: get
+    url: /message/count
+  vaildate: True

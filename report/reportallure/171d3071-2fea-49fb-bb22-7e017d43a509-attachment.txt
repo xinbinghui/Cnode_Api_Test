@@ -1,0 +1,2 @@
+[32mINFO    [0m main.py:test_user.py:32 开始执行脚本test_user_accesstoken:
+[32mINFO    [0m test_user_accesstoken:Assert.py:33 Response body msg == expected_msg, expected_msg is False, body_message is False

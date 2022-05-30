@@ -1,0 +1,21 @@
+-
+  name: 用户详情
+  request: 
+    method: get
+    url: /user/
+  loginname: haha123
+  validate: True
+-
+  name: 用户详情
+  request: 
+    method: get
+    url: /user/
+  loginname: haha
+  validate: False
+-
+  name: 用户详情
+  request: 
+    method: get
+    url: /user/
+  loginname: fl1441768608
+  validate: True

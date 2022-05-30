@@ -1,0 +1,16 @@
+-
+  name: 主题详情
+  request: 
+    method: get
+    url: /topic/
+  params: 
+    mdernder: false
+  validate: True
+-
+  name: 主题详情
+  request: 
+    method: get
+    url: /topic/
+  params: 
+    mdernder: true
+  validate: True

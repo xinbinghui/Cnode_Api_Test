@@ -1,0 +1,2 @@
+[32mINFO    [0m main.py:test_collect_topic.py:46 开始执行脚本test_decollect_topic
+[32mINFO    [0m test_decollect_topic:Assert.py:33 Response body msg == expected_msg, expected_msg is True, body_message is True
