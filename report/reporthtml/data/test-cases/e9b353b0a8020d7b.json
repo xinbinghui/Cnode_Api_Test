@@ -1,0 +1,290 @@
+{
+  "uid" : "e9b353b0a8020d7b",
+  "name" : "test_get_topic[caseinfo0]",
+  "fullName" : "test_case.test_topic#test_get_topic",
+  "historyId" : "cb5a5c4f4bc53184d2c48465ad53a06f",
+  "time" : {
+    "start" : 1654240217997,
+    "stop" : 1654240218059,
+    "duration" : 62
+  },
+  "description" : "测试http://47.100.175.62:3000/api/v1/topics接口",
+  "descriptionHtml" : "<p>测试http://47.100.175.62:3000/api/v1/topics接口</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654240215980,
+      "stop" : 1654240216036,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1654240216036,
+      "stop" : 1654240216036,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1654240216036,
+      "stop" : 1654240216036,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1654240216037,
+      "stop" : 1654240217007,
+      "duration" : 970
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1654240216037,
+      "stop" : 1654240216037,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1654240217007,
+      "stop" : 1654240217027,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1654240217027,
+      "stop" : 1654240217058,
+      "duration" : 31
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1654240217059,
+      "stop" : 1654240217084,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试http://47.100.175.62:3000/api/v1/topics接口",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1333ca33c5f1875",
+      "name" : "log",
+      "source" : "b1333ca33c5f1875.txt",
+      "type" : "text/plain",
+      "size" : 200
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1654240218988,
+      "stop" : 1654240218988,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_topic"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "13280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_topic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '主题首页', 'request': {'method': 'get', 'url': '/topics'}, 'params': {'page': 1, 'tab': 'ask', 'limit': 50, 'mdernder': False}, 'validate': True}"
+  } ],
+  "links" : [ {
+    "name" : "测试用例地址",
+    "url" : "http://47.100.175.62:3000/api/v1/topics",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c73e4b5915a3880a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171670109,
+        "stop" : 1654171670175,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "ca70af0de7e92643",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171635774,
+        "stop" : 1654171635837,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "a90c741abd71a7ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654093532829,
+        "stop" : 1654093532914,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "40b242414f2d6762",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652963043520,
+        "stop" : 1652963043575,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "8f272d3939c2b817",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962835082,
+        "stop" : 1652962835137,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "101c289bc91a057f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962758061,
+        "stop" : 1652962758110,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "19a32f0c58ba4097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845448698,
+        "stop" : 1652845448756,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "8f4dcdb10720eb43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913584283,
+        "stop" : 1651913584429,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "984350aef21ec7d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910127693,
+        "stop" : 1651910127993,
+        "duration" : 300
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9b353b0a8020d7b.json",
+  "parameterValues" : [ "{'name': '主题首页', 'request': {'method': 'get', 'url': '/topics'}, 'params': {'page': 1, 'tab': 'ask', 'limit': 50, 'mdernder': False}, 'validate': True}" ]
+}

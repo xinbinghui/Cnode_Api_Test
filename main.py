@@ -31,8 +31,8 @@ if __name__ == '__main__':
         print("报告生成失败，请重新执行", e)
         raise
 
-    time.sleep(2)
-    mail()
+    # time.sleep(2)
+    # mail()
 
 # allure 报告终端打开方式
 # allure open F:\Python\api_rili\report\reporthtml
