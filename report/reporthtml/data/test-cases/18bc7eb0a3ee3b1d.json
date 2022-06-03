@@ -1,0 +1,307 @@
+{
+  "uid" : "18bc7eb0a3ee3b1d",
+  "name" : "test_messages[caseinfo0]",
+  "fullName" : "test_case.test_message#test_messages",
+  "historyId" : "11cece5bdae45003c1356c70edf8930c",
+  "time" : {
+    "start" : 1654242303032,
+    "stop" : 1654242303157,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654242301703,
+      "stop" : 1654242301758,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1654242301758,
+      "stop" : 1654242301759,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1654242301758,
+      "stop" : 1654242301758,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1654242301759,
+      "stop" : 1654242302716,
+      "duration" : 957
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1654242301759,
+      "stop" : 1654242301759,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1654242302716,
+      "stop" : 1654242302736,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1654242302736,
+      "stop" : 1654242302756,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1654242302756,
+      "stop" : 1654242302776,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ebd19ee4bb614f0",
+      "name" : "log",
+      "source" : "ebd19ee4bb614f0.txt",
+      "type" : "text/plain",
+      "size" : 199
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1654242304589,
+      "stop" : 1654242304589,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_message"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "10232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': False}}, 'vaildate': True}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c5b7f85e155ee2e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654242218146,
+        "stop" : 1654242218299,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "425c04773e4bb3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654242192329,
+        "stop" : 1654242192525,
+        "duration" : 196
+      }
+    }, {
+      "uid" : "675f4d4f0a1efcf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654240217412,
+        "stop" : 1654240217567,
+        "duration" : 155
+      }
+    }, {
+      "uid" : "579d7eb43583e35e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171669434,
+        "stop" : 1654171669588,
+        "duration" : 154
+      }
+    }, {
+      "uid" : "4cd7e48a2d63a98f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171635118,
+        "stop" : 1654171635280,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "54246e978c97d914",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654093531987,
+        "stop" : 1654093532156,
+        "duration" : 169
+      }
+    }, {
+      "uid" : "52a331676e17fef2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652963042966,
+        "stop" : 1652963043099,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "65055d2c46eef693",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962834421,
+        "stop" : 1652962834568,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "aeccdbc1bdca9d91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962757558,
+        "stop" : 1652962757684,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "f9ec66fbc7bec441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845447968,
+        "stop" : 1652845448170,
+        "duration" : 202
+      }
+    }, {
+      "uid" : "7ee8f7f0d617cddc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913582298,
+        "stop" : 1651913582964,
+        "duration" : 666
+      }
+    }, {
+      "uid" : "85abb9bcc64e680d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910122534,
+        "stop" : 1651910123505,
+        "duration" : 971
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18bc7eb0a3ee3b1d.json",
+  "parameterValues" : [ "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': False}}, 'vaildate': True}" ]
+}

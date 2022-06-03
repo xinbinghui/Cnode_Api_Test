@@ -1,0 +1,307 @@
+{
+  "uid" : "c174873991932c08",
+  "name" : "test_all_collect[caseinfo2]",
+  "fullName" : "test_case.test_collect_topic#test_all_collect",
+  "historyId" : "0f1356404b9fdc7d8bea993042c496a0",
+  "time" : {
+    "start" : 1654242302968,
+    "stop" : 1654242303006,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654242301703,
+      "stop" : 1654242301758,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1654242301758,
+      "stop" : 1654242301759,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1654242301758,
+      "stop" : 1654242301758,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1654242301759,
+      "stop" : 1654242302716,
+      "duration" : 957
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1654242301759,
+      "stop" : 1654242301759,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1654242302716,
+      "stop" : 1654242302736,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1654242302736,
+      "stop" : 1654242302756,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1654242302756,
+      "stop" : 1654242302776,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d805328716f2488d",
+      "name" : "log",
+      "source" : "d805328716f2488d.txt",
+      "type" : "text/plain",
+      "size" : 211
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1654242304589,
+      "stop" : 1654242304589,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_collect_topic"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "10232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_collect_topic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '用户收藏的所有话题', 'request': {'method': 'get', 'url': '/topic_collect/'}, 'loginname': 'fl1441768608', 'validate': True}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a94347db547e08dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654242218078,
+        "stop" : 1654242218117,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "20f6271a5ead3ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654242192250,
+        "stop" : 1654242192302,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "547384ce335e17ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654240217344,
+        "stop" : 1654240217383,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "46897cf979ab2ac1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171669363,
+        "stop" : 1654171669408,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "2f232b799e8809b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171635044,
+        "stop" : 1654171635090,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "e2e180320dc8d09d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654093531917,
+        "stop" : 1654093531959,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "aea85ef3ac061812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652963042901,
+        "stop" : 1652963042941,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "9f718fecaa479083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962834353,
+        "stop" : 1652962834393,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "15254ffaba923cb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962757490,
+        "stop" : 1652962757533,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "c4939df544e10dfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845447898,
+        "stop" : 1652845447943,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "b488392b13e584d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913581183,
+        "stop" : 1651913581943,
+        "duration" : 760
+      }
+    }, {
+      "uid" : "79fbb66330219a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910121607,
+        "stop" : 1651910122129,
+        "duration" : 522
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c174873991932c08.json",
+  "parameterValues" : [ "{'name': '用户收藏的所有话题', 'request': {'method': 'get', 'url': '/topic_collect/'}, 'loginname': 'fl1441768608', 'validate': True}" ]
+}

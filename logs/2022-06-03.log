@@ -1,69 +1,138 @@
-Fri, 03 Jun 2022 15:10:15-main.py-main.py-[line:14]-INFO-[日志信息]: 开始执行脚本
-Fri, 03 Jun 2022 15:10:15-main.py-main.py-[line:15]-INFO-[日志信息]: ==========2022-06-03 15:10:15==========
-Fri, 03 Jun 2022 15:10:17-main.py-test_collect_topic.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_collect_topic
-Fri, 03 Jun 2022 15:10:17-test_collect_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_collect_topic.py-[line:46]-INFO-[日志信息]: 开始执行脚本test_decollect_topic
-Fri, 03 Jun 2022 15:10:17-test_decollect_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
-Fri, 03 Jun 2022 15:10:17-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
-Fri, 03 Jun 2022 15:10:17-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:17-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
-Fri, 03 Jun 2022 15:10:17-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_message.py-[line:19]-INFO-[日志信息]: 开始执行脚本test_hasnot_read_message
-Fri, 03 Jun 2022 15:10:17-test_hasnot_read_message-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
-Fri, 03 Jun 2022 15:10:17-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
-Fri, 03 Jun 2022 15:10:17-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
-Fri, 03 Jun 2022 15:10:17-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
-Fri, 03 Jun 2022 15:10:17-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
-Fri, 03 Jun 2022 15:10:17-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:17-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
-Fri, 03 Jun 2022 15:10:17-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
-Fri, 03 Jun 2022 15:10:17-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:17-main.py-test_reply_topic.py-[line:69]-INFO-[日志信息]: 开始执行脚本test_reply_ups
-Fri, 03 Jun 2022 15:10:17-test_reply_ups-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:17-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
-Fri, 03 Jun 2022 15:10:18-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
-Fri, 03 Jun 2022 15:10:18-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
-Fri, 03 Jun 2022 15:10:18-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:49]-INFO-[日志信息]: 开始执行脚本test_topic_detail:
-Fri, 03 Jun 2022 15:10:18-test_topic_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:49]-INFO-[日志信息]: 开始执行脚本test_topic_detail:
-Fri, 03 Jun 2022 15:10:18-test_topic_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
-Fri, 03 Jun 2022 15:10:18-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
-Fri, 03 Jun 2022 15:10:18-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
-Fri, 03 Jun 2022 15:10:18-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
-Fri, 03 Jun 2022 15:10:18-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
-Fri, 03 Jun 2022 15:10:18-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
-Fri, 03 Jun 2022 15:10:18-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
-Fri, 03 Jun 2022 15:10:18-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
-Fri, 03 Jun 2022 15:10:18-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
-Fri, 03 Jun 2022 15:10:18-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
-Fri, 03 Jun 2022 15:10:18-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
-Fri, 03 Jun 2022 15:10:18-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_user.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_user_accesstoken:
-Fri, 03 Jun 2022 15:10:18-test_user_accesstoken-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
-Fri, 03 Jun 2022 15:10:18-main.py-test_user.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_user_accesstoken:
-Fri, 03 Jun 2022 15:10:18-test_user_accesstoken-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
-Fri, 03 Jun 2022 15:10:18-main.py-main.py-[line:18]-INFO-[日志信息]: 脚本执行完成
-Fri, 03 Jun 2022 15:10:18-main.py-main.py-[line:25]-INFO-[日志信息]: 开始执行报告生成
-Fri, 03 Jun 2022 15:10:23-main.py-main.py-[line:28]-INFO-[日志信息]: 报告生成完毕
+Fri, 03 Jun 2022 15:43:36-main.py-main.py-[line:14]-INFO-[日志信息]: 开始执行脚本
+Fri, 03 Jun 2022 15:43:36-main.py-main.py-[line:15]-INFO-[日志信息]: ==========2022-06-03 15:43:36==========
+Fri, 03 Jun 2022 15:43:37-main.py-test_collect_topic.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_collect_topic
+Fri, 03 Jun 2022 15:43:37-test_collect_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:37-main.py-test_collect_topic.py-[line:46]-INFO-[日志信息]: 开始执行脚本test_decollect_topic
+Fri, 03 Jun 2022 15:43:37-test_decollect_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:37-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
+Fri, 03 Jun 2022 15:43:38-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
+Fri, 03 Jun 2022 15:43:38-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:38-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
+Fri, 03 Jun 2022 15:43:38-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_message.py-[line:19]-INFO-[日志信息]: 开始执行脚本test_hasnot_read_message
+Fri, 03 Jun 2022 15:43:38-test_hasnot_read_message-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
+Fri, 03 Jun 2022 15:43:38-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
+Fri, 03 Jun 2022 15:43:38-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
+Fri, 03 Jun 2022 15:43:38-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:43:38-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:43:38-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:38-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:43:38-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:43:38-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:38-main.py-test_reply_topic.py-[line:69]-INFO-[日志信息]: 开始执行脚本test_reply_ups
+Fri, 03 Jun 2022 15:43:38-test_reply_ups-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
+Fri, 03 Jun 2022 15:43:38-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
+Fri, 03 Jun 2022 15:43:38-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
+Fri, 03 Jun 2022 15:43:38-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:38-main.py-test_topic.py-[line:49]-INFO-[日志信息]: 开始执行脚本test_topic_detail:
+Fri, 03 Jun 2022 15:43:39-test_topic_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:49]-INFO-[日志信息]: 开始执行脚本test_topic_detail:
+Fri, 03 Jun 2022 15:43:39-test_topic_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:43:39-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:43:39-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:43:39-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:43:39-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:43:39-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:43:39-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:43:39-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:43:39-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
+Fri, 03 Jun 2022 15:43:39-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
+Fri, 03 Jun 2022 15:43:39-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
+Fri, 03 Jun 2022 15:43:39-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_user.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_user_accesstoken:
+Fri, 03 Jun 2022 15:43:39-test_user_accesstoken-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:43:39-main.py-test_user.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_user_accesstoken:
+Fri, 03 Jun 2022 15:43:39-test_user_accesstoken-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:43:39-main.py-main.py-[line:18]-INFO-[日志信息]: 脚本执行完成
+Fri, 03 Jun 2022 15:43:39-main.py-main.py-[line:25]-INFO-[日志信息]: 开始执行报告生成
+Fri, 03 Jun 2022 15:43:42-main.py-main.py-[line:28]-INFO-[日志信息]: 报告生成完毕
+Fri, 03 Jun 2022 15:45:01-main.py-main.py-[line:14]-INFO-[日志信息]: 开始执行脚本
+Fri, 03 Jun 2022 15:45:01-main.py-main.py-[line:15]-INFO-[日志信息]: ==========2022-06-03 15:45:01==========
+Fri, 03 Jun 2022 15:45:02-main.py-test_collect_topic.py-[line:33]-INFO-[日志信息]: 开始执行脚本test_collect_topic
+Fri, 03 Jun 2022 15:45:02-test_collect_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:02-main.py-test_collect_topic.py-[line:46]-INFO-[日志信息]: 开始执行脚本test_decollect_topic
+Fri, 03 Jun 2022 15:45:02-test_decollect_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:02-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
+Fri, 03 Jun 2022 15:45:02-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:02-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
+Fri, 03 Jun 2022 15:45:02-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:02-main.py-test_collect_topic.py-[line:59]-INFO-[日志信息]: 开始执行脚本test_all_collect
+Fri, 03 Jun 2022 15:45:03-test_all_collect-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_message.py-[line:19]-INFO-[日志信息]: 开始执行脚本test_hasnot_read_message
+Fri, 03 Jun 2022 15:45:03-test_hasnot_read_message-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
+Fri, 03 Jun 2022 15:45:03-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
+Fri, 03 Jun 2022 15:45:03-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_message.py-[line:31]-INFO-[日志信息]: 开始执行脚本test_messages
+Fri, 03 Jun 2022 15:45:03-test_messages-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:45:03-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:45:03-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:03-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:45:03-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_reply_topic.py-[line:56]-INFO-[日志信息]: 开始执行脚本test_reply_topic:
+Fri, 03 Jun 2022 15:45:03-test_reply_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:03-main.py-test_reply_topic.py-[line:69]-INFO-[日志信息]: 开始执行脚本test_reply_ups
+Fri, 03 Jun 2022 15:45:03-test_reply_ups-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
+Fri, 03 Jun 2022 15:45:03-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
+Fri, 03 Jun 2022 15:45:03-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:24]-INFO-[日志信息]: 开始执行脚本test_get_topic:
+Fri, 03 Jun 2022 15:45:03-test_get_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:49]-INFO-[日志信息]: 开始执行脚本test_topic_detail:
+Fri, 03 Jun 2022 15:45:03-test_topic_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:49]-INFO-[日志信息]: 开始执行脚本test_topic_detail:
+Fri, 03 Jun 2022 15:45:03-test_topic_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:45:03-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:03-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:45:04-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:45:04-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-test_topic.py-[line:62]-INFO-[日志信息]: 开始执行脚本test_create_topic:
+Fri, 03 Jun 2022 15:45:04-test_create_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:45:04-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:04-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:45:04-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:45:04-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-test_topic.py-[line:76]-INFO-[日志信息]: 开始执行脚本test_eidt_topic:
+Fri, 03 Jun 2022 15:45:04-test_eidt_topic-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:04-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
+Fri, 03 Jun 2022 15:45:04-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:04-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
+Fri, 03 Jun 2022 15:45:04-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-test_user.py-[line:20]-INFO-[日志信息]: 开始执行脚本test_user_detail:
+Fri, 03 Jun 2022 15:45:04-test_user_detail-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:04-main.py-test_user.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_user_accesstoken:
+Fri, 03 Jun 2022 15:45:04-test_user_accesstoken-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is True, body_message is True
+Fri, 03 Jun 2022 15:45:04-main.py-test_user.py-[line:32]-INFO-[日志信息]: 开始执行脚本test_user_accesstoken:
+Fri, 03 Jun 2022 15:45:04-test_user_accesstoken-Assert.py-[line:33]-INFO-[日志信息]: Response body msg == expected_msg, expected_msg is False, body_message is False
+Fri, 03 Jun 2022 15:45:04-main.py-main.py-[line:18]-INFO-[日志信息]: 脚本执行完成
+Fri, 03 Jun 2022 15:45:04-main.py-main.py-[line:25]-INFO-[日志信息]: 开始执行报告生成
+Fri, 03 Jun 2022 15:45:07-main.py-main.py-[line:28]-INFO-[日志信息]: 报告生成完毕
