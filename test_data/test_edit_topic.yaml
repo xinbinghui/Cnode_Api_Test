@@ -1,0 +1,40 @@
+-
+  name: 编辑主题
+  request: 
+    method: post
+    url: /topics/update
+    data: 
+      title: 今天天气不错哈哈哈
+      tab: share
+      content: 今天是2022年4月25日，麻麻咧咧
+  validate: True
+-
+  name: 编辑主题
+  request: 
+    method: post
+    url: /topics/update
+    data: 
+      title: 
+      tab: share
+      content: 今天是2022年4月25日，麻麻咧咧
+  validate: false
+-
+  name: 编辑主题
+  request: 
+    method: post
+    url: /topics/update
+    data: 
+      title: 今天天气不错哈哈哈
+      tab: 
+      content: 今天是2022年4月25日，麻麻咧咧
+  validate: false
+-
+  name: 编辑主题
+  request: 
+    method: post
+    url: /topics/update
+    data: 
+      title: 今天天气不错哈哈哈
+      tab: share
+      content: 
+  validate: true

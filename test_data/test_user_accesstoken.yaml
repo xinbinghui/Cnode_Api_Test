@@ -1,0 +1,16 @@
+-
+  name: 验证accesstoken的正确性
+  request: 
+    method: POST
+    url: /accesstoken
+    data: 
+      accesstoken: 80b90794-ca9a-4177-8335-48d9e6999605
+  validate: True
+-
+  name: 验证accesstoken的正确性
+  request: 
+    method: POST
+    url: /accesstoken
+    data: 
+      accesstoken: 80b90794
+  validate: False

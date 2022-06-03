@@ -1,0 +1,24 @@
+-
+  name: 获取已读和未读消息
+  request: 
+    method: get
+    url: /messages
+    data: 
+      mdrender: false
+  vaildate: True
+-
+  name: 获取已读和未读消息
+  request: 
+    method: get
+    url: /messages
+    data: 
+      mdrender: True
+  vaildate: True
+-
+  name: 获取已读和未读消息
+  request: 
+    method: get
+    url: /messages
+    data: 
+      mdrender: 
+  vaildate: True

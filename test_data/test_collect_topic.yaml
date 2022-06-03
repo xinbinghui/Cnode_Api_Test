@@ -1,0 +1,6 @@
+-
+  name: 收藏主题
+  request: 
+    method: post
+    url: /topic_collect/collect
+  validate: True

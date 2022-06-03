@@ -1,0 +1,6 @@
+-
+  name: 取消收藏主题
+  request: 
+    method: post
+    url: /topic_collect/de_collect
+  validate: True

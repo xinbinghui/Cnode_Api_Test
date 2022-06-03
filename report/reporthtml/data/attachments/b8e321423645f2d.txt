@@ -1,0 +1,2 @@
+[32mINFO    [0m main.py:test_topic.py:49 开始执行脚本test_topic_detail:
+[32mINFO    [0m test_topic_detail:Assert.py:33 Response body msg == expected_msg, expected_msg is True, body_message is True

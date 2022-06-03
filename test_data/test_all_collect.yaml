@@ -1,0 +1,21 @@
+-
+  name: 用户收藏的所有话题
+  request: 
+    method: get
+    url: /topic_collect/
+  loginname: haha123
+  validate: True
+-
+  name: 用户收藏的所有话题
+  request: 
+    method: get
+    url: /topic_collect/
+  loginname: haha
+  validate: False
+-
+  name: 用户收藏的所有话题
+  request: 
+    method: get
+    url: /topic_collect/
+  loginname: fl1441768608
+  validate: True

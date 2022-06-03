@@ -1,0 +1,36 @@
+-
+  name: 新建评论
+  reply: 0
+  request: 
+    method: post
+    url: $url
+    data: 
+      content: 今天是2022年4月24日
+  validate: True
+-
+  name: 新建评论
+  reply: 0
+  request: 
+    method: post
+    url: $url
+    data: 
+      content: 
+  validate: false
+-
+  name: 回复新建评论
+  reply: 1
+  request: 
+    method: post
+    url: $url
+    data: 
+      content: 回复"创建reply_id"
+  validate: true
+-
+  name: 回复新建评论
+  reply: 1
+  request: 
+    method: post
+    url: $url
+    data: 
+      content: 
+  validate: false

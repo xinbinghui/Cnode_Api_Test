@@ -1,0 +1,40 @@
+-
+  name: 新建主题
+  request: 
+    method: post
+    url: /topics
+    data: 
+      title: 今天天气不错
+      tab: ask
+      content: 今天是2022年4月24日
+  validate: True
+-
+  name: 新建主题
+  request: 
+    method: post
+    url: /topics
+    data: 
+      title: 
+      tab: ask
+      content: 今天是2022年4月25日
+  validate: False
+-
+  name: 新建主题
+  request: 
+    method: post
+    url: /topics
+    data: 
+      title: 今天是2022年4月25日
+      tab: ask
+      content: 
+  validate: False
+-
+  name: 新建主题
+  request: 
+    method: post
+    url: /topics
+    data: 
+      title: 今天是2022年4月25日
+      tab: 
+      content: 今天是2022年4月25日
+  validate: False
