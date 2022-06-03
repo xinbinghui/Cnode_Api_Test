@@ -3,7 +3,7 @@ import time
 import logging
 
 def create_file():
-    log_dir = os.path.dirname(os.getcwd()) + '/api_rili/logs/'
+    log_dir = os.path.dirname(os.getcwd()) + r'/api_rili/logs/'
     if not os.path.exists(log_dir):
         os.mkdir(log_dir)
     now_time = time.strftime("%Y-%m-%d",time.localtime(time.time()))

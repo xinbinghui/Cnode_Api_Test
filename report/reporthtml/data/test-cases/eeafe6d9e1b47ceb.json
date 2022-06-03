@@ -1,0 +1,275 @@
+{
+  "uid" : "eeafe6d9e1b47ceb",
+  "name" : "test_messages[caseinfo1]",
+  "fullName" : "test_case.test_message#test_messages",
+  "historyId" : "3b741f6213f3a1b0b61e9320c45fe7ec",
+  "time" : {
+    "start" : 1654171669598,
+    "stop" : 1654171669777,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654171668073,
+      "stop" : 1654171668126,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1654171668126,
+      "stop" : 1654171668126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1654171668126,
+      "stop" : 1654171668126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1654171668127,
+      "stop" : 1654171668127,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1654171668127,
+      "stop" : 1654171669076,
+      "duration" : 949
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1654171669076,
+      "stop" : 1654171669096,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1654171669096,
+      "stop" : 1654171669116,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1654171669116,
+      "stop" : 1654171669146,
+      "duration" : 30
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "16c1260565bb0d43",
+      "name" : "log",
+      "source" : "16c1260565bb0d43.txt",
+      "type" : "text/plain",
+      "size" : 199
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1654171671015,
+      "stop" : 1654171671015,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_message"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "12284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': True}}, 'vaildate': True}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9eeb6c37f48d7f4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171635290,
+        "stop" : 1654171635456,
+        "duration" : 166
+      }
+    }, {
+      "uid" : "655acff3e88bb847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654093532277,
+        "stop" : 1654093532504,
+        "duration" : 227
+      }
+    }, {
+      "uid" : "ae63e10c0fc8811c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652963043102,
+        "stop" : 1652963043239,
+        "duration" : 137
+      }
+    }, {
+      "uid" : "93c0e150944d68de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962834571,
+        "stop" : 1652962834787,
+        "duration" : 216
+      }
+    }, {
+      "uid" : "60af2221f16991bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962757687,
+        "stop" : 1652962757806,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "9231af5a550138b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845448179,
+        "stop" : 1652845448320,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "ac6f988bca701a67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913582967,
+        "stop" : 1651913583574,
+        "duration" : 607
+      }
+    }, {
+      "uid" : "5bc38bd114e41160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910123508,
+        "stop" : 1651910123830,
+        "duration" : 322
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eeafe6d9e1b47ceb.json",
+  "parameterValues" : [ "{'name': '获取已读和未读消息', 'request': {'method': 'get', 'url': '/messages', 'data': {'mdrender': True}}, 'vaildate': True}" ]
+}

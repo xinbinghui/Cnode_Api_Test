@@ -1,0 +1,275 @@
+{
+  "uid" : "83f6523eb8169e7",
+  "name" : "test_eidt_topic[caseinfo1]",
+  "fullName" : "test_case.test_topic#test_eidt_topic",
+  "historyId" : "2b83f78deaf1a917a7cb2aefd9f3b4bf",
+  "time" : {
+    "start" : 1654171670599,
+    "stop" : 1654171670622,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 8,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1654171668073,
+      "stop" : 1654171668126,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1654171668126,
+      "stop" : 1654171668126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1654171668126,
+      "stop" : 1654171668126,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session",
+    "time" : {
+      "start" : 1654171668127,
+      "stop" : 1654171668127,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "user_session",
+    "time" : {
+      "start" : 1654171668127,
+      "stop" : 1654171669076,
+      "duration" : 949
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_accesstoken",
+    "time" : {
+      "start" : 1654171669076,
+      "stop" : 1654171669096,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "topic_id",
+    "time" : {
+      "start" : 1654171669096,
+      "stop" : 1654171669116,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "reply_id",
+    "time" : {
+      "start" : 1654171669116,
+      "stop" : 1654171669146,
+      "duration" : 30
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6f4ba7eacda890d",
+      "name" : "log",
+      "source" : "b6f4ba7eacda890d.txt",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1654171671015,
+      "stop" : 1654171671015,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_topic"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N189VGS"
+  }, {
+    "name" : "thread",
+    "value" : "12284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_topic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '编辑主题', 'request': {'method': 'post', 'url': '/topics/update', 'data': {'title': None, 'tab': 'share', 'content': '今天是2022年4月25日，麻麻咧咧'}}, 'validate': False}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "324ac796d611f42f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654171636318,
+        "stop" : 1654171636341,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "cb5de2c039a9a56d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654093533457,
+        "stop" : 1654093533481,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "5209ca6c97285428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652963043956,
+        "stop" : 1652963043979,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "6e250382744cb65b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962835555,
+        "stop" : 1652962835581,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "6e1c96fa3de0c404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652962758504,
+        "stop" : 1652962758525,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "896eabb186d96c24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845449249,
+        "stop" : 1652845449273,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "ff2fb337147396c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651913586222,
+        "stop" : 1651913586601,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "5a8f2927a66c3778",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651910135102,
+        "stop" : 1651910135853,
+        "duration" : 751
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83f6523eb8169e7.json",
+  "parameterValues" : [ "{'name': '编辑主题', 'request': {'method': 'post', 'url': '/topics/update', 'data': {'title': None, 'tab': 'share', 'content': '今天是2022年4月25日，麻麻咧咧'}}, 'validate': False}" ]
+}
